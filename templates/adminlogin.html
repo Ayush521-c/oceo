@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block title %}
+Admin Login
+{% endblock title %}
+{% block body %}
+
+<div class="container">
+    <h1>
+        Login
+    </h1>
+    <form method="POST" action="">
+
+        Email <input type="email" name="email" value="jain01@gmail.com" required />
+        <br>
+
+        Password <input type="password" name="pswd" value="12345" />
+        <br>
+
+        <input type="submit" name="login" value="Login" id="submit">
+    </form>
+</div>
+{% endblock body %}
